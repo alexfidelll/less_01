@@ -1,6 +1,8 @@
-﻿int firstNumber = 5;
+﻿int firstNumber = new Random().Next(0,10);
+System.Console.WriteLine(firstNumber);
 
-int lastNumber = 4;
+int lastNumber = new Random().Next(0,10);
+System.Console.WriteLine(lastNumber);
 
 int result = firstNumber + lastNumber;
 
